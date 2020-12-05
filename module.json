@@ -9,5 +9,9 @@
   "system": "dnd5e",
   "esmodules": [
     "./esmodules/main.js"
-  ]
+  ],
+  "url": "https://gitlab.com/csmcfarland/dmpoc",
+  "manifest": "https://gitlab.com/csmcfarland/dmpoc/raw/master/module.json",
+  "download": "https://gitlab.com/csmcfarland/dmpoc/-/archive/master/dmpoc-master.zip",
+  "readme": "README.md"
 }
