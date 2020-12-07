@@ -5,7 +5,7 @@
   "author": "CSMcFarland#6471",
   "version": "0.0.3",
   "minimumCoreVersion": "0.7.7",
-  "compatibleCoreVersion": "0.7.7",
+  "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
   "esmodules": [
     "./esmodules/main.js"
