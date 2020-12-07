@@ -1,5 +1,6 @@
 import { DND5E } from '/systems/dnd5e/module/config.js';
 import Actor5e from '/systems/dnd5e/module/actor/entity.js';
+import ActorSheet5eVehicle from '/systems/dnd5e/module/actor/sheets/vehicle.js';
 
 DND5E.skills["dat"] = "Data";
 DND5E.skills["pil"] = "Piloting";
@@ -21,6 +22,24 @@ Hooks.on("init", async function() {
   }
   Actor5e.prototype.prepareData = extendActor5ePrepareData;
 });
+
+export class DarkMatterShipSheet extends ActorSheet5eVehicle {
+
+  get template() {
+    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e/templates/actors/limited-sheet.html";
+    return `modules/dmpoc/templates/${this.actor.data.type}-sheet.html`;
+  }
+
+}
+
+Actors.registerSheet('dnd5e',
+  DarkMatterShipSheet,
+  {
+    label: 'Dark Matter Ship',
+    makeDefault: false,
+    types: ['vehicle'],
+  }
+);
 
 Hooks.on("ready", function() {
   console.log("DMPOC | This code runs once core initialization is ready and game data is available.");
