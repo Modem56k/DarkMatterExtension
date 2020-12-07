@@ -11,9 +11,12 @@ Hooks.on("init", async function() {
   const prepData = Actor5e.prototype.prepareData;
   function extendActor5ePrepareData() {
     const skills = this._data.data.skills;
-    skills['pil'] = { value: 0, ability: 'dex', ...skills['pil'] };
-    skills['dat'] = { value: 0, ability: 'int', ...skills['dat'] };
-    skills['tec'] = { value: 0, ability: 'int', ...skills['tec'] };
+    const type = this.data.type;
+    if (type != 'vehicle') {
+      skills['pil'] = { value: 0, ability: 'dex', ...skills['pil'] };
+      skills['dat'] = { value: 0, ability: 'int', ...skills['dat'] };
+      skills['tec'] = { value: 0, ability: 'int', ...skills['tec'] };
+    }
     return prepData.call(this);
   }
   Actor5e.prototype.prepareData = extendActor5ePrepareData;
