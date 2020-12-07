@@ -7,6 +7,7 @@ DND5E.skills["tec"] = "Technology";
 
 Hooks.on("init", async function() {
   console.log("DMPOC | This code runs once the Foundry VTT software begins it's initialization workflow.");
+  $('body').addClass('dmpoc');
   const prepData = Actor5e.prototype.prepareData;
   function extendActor5ePrepareData() {
     const skills = this._data.data.skills;
