@@ -4,6 +4,10 @@ This module extends the Foundry VTT DND5e system module.
 1. Adds three skills to character and npcs: Piloting, Technology, and Data
 1. Modifies the style of the default DND5e character sheet to show those
   skills better.
+1. Adds a vehicle sheet that adds some ship attributes:
+  * Shield Points
+  * Maneuver
+  * Engine Class
 
 ## Dependencies
 This plugin depends on the Foundry VTT DND5E system module to work.

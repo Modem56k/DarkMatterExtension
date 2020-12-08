@@ -1,4 +1,5 @@
 {
+  "DMPOC.Ship": "Ship",
   "DMPOC.ShipEngineClass": "Engine Class",
   "DMPOC.ShipManeuver": "Maneuver",
   "DMPOC.ShieldPoints": "Shield Points"
