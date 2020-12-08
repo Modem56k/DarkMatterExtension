@@ -3,12 +3,17 @@
   min-height: 750px;
 }
 
+.dnd5e.sheet.actor.character ul.skills-list {
+  flex: 0 0 212px;
+  height: 510px;
+}
+
 .dmpoc .dnd5e.sheet.actor.npc {
   min-width: 600px;
   min-height: 750px;
 }
 
-.dnd5e.sheet.actor.character ul.skills-list {
+.dnd5e.sheet.actor.npc ul.skills-list {
   flex: 0 0 212px;
   height: 510px;
 }
