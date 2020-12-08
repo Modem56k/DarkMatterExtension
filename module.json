@@ -3,7 +3,7 @@
   "title": "Dark Matter Proof of Concept",
   "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
   "author": "CSMcFarland#6471",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "minimumCoreVersion": "0.7.7",
   "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
