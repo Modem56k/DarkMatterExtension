@@ -8,6 +8,9 @@ This module extends the Foundry VTT DND5e system module.
   * Shield Points
   * Maneuver
   * Engine Class
+1. Weapons can be Simple or Martial Blasters.
+1. Weapons can have an Automatic type.
+1. Simple and Martial Blasters are checkboxes for characters.
 
 ## Dependencies
 This plugin depends on the Foundry VTT DND5E system module to work.
