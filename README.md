@@ -34,3 +34,5 @@ by asking good questions or listening to me.
 Thank you for those who found bugs or just tried this out to help make sure
 it worked.
 * Teamber#6650
+* ShingekiSkunk#2922
+* Android8675#9424
