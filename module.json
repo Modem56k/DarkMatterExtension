@@ -1,9 +1,9 @@
 {
-  "name": "dmpoc",
-  "title": "Dark Matter Proof of Concept",
-  "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+  "name": "dme",
+  "title": "Dark Matter System Extensions",
+  "description": "Add Dark Matter features to the Foundry VTT DND5E system.",
   "author": "CSMcFarland#6471",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "minimumCoreVersion": "0.7.7",
   "compatibleCoreVersion": "0.7.8",
   "system": "dnd5e",
@@ -20,8 +20,8 @@
       "path": "lang/en.json"
     }
   ],
-  "url": "https://gitlab.com/csmcfarland/dmpoc",
-  "manifest": "https://gitlab.com/csmcfarland/dmpoc/raw/master/module.json",
-  "download": "https://gitlab.com/csmcfarland/dmpoc/-/archive/master/dmpoc-master.zip",
+  "url": "https://gitlab.com/csmcfarland/dme",
+  "manifest": "https://gitlab.com/csmcfarland/dme/raw/master/module.json",
+  "download": "https://gitlab.com/csmcfarland/dme/-/archive/master/dme-master.zip",
   "readme": "README.md"
 }
