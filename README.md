@@ -1,4 +1,4 @@
-# A proof of concept for a non-system plugin for Foundry VTT
+# Dark Matter Extension for DND5E
 
 This module extends the Foundry VTT DND5e system module.
 * Adds three skills to character and NPCs:
@@ -20,7 +20,7 @@ This plugin depends on the Foundry VTT DND5E system module to work.
 
 ## Install
 Use this manifest:
-`https://gitlab.com/csmcfarland/dmpoc/raw/master/module.json`
+`https://gitlab.com/csmcfarland/dme/raw/master/module.json`
 
 ## Thank You
 Special thank to those of you who have pointed me in the right direction

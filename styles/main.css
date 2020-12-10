@@ -1,4 +1,4 @@
-.dmpoc .dnd5e.sheet.actor.character {
+.dme .dnd5e.sheet.actor.character {
   min-width: 720px;
   min-height: 750px;
 }
@@ -8,7 +8,7 @@
   height: 510px;
 }
 
-.dmpoc .dnd5e.sheet.actor.npc {
+.dme .dnd5e.sheet.actor.npc {
   min-width: 600px;
   min-height: 750px;
 }

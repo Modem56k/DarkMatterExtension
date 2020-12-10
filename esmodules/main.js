@@ -12,9 +12,9 @@ DND5E.weaponTypes['martialB'] = 'Martial Blasters';
 DND5E.weaponProperties['aut'] = 'Automatic';
 
 Hooks.on('init', async function() {
-  console.log('DMPOC | This code runs once the Foundry VTT software begins'+
+  console.log('DME | This code runs once the Foundry VTT software begins'+
    ' it\'s initialization workflow.');
-  $('body').addClass('dmpoc');
+  $('body').addClass('dme');
   const prepData = Actor5e.prototype.prepareData;
   function extendActor5ePrepareData() {
     const skills = this._data.data.skills;
@@ -34,7 +34,7 @@ export class DarkMatterShipSheet extends ActorSheet5eVehicle {
     if ( !game.user.isGM && this.actor.limited ) {
       return 'systems/dnd5e/templates/actors/limited-sheet.html';
     }
-    return `modules/dmpoc/templates/${this.actor.data.type}-sheet.html`;
+    return `modules/dme/templates/${this.actor.data.type}-sheet.html`;
   }
 }
 
@@ -48,6 +48,6 @@ Actors.registerSheet('dnd5e',
 );
 
 Hooks.on('ready', function() {
-  console.log('DMPOC | This code runs once core initialization is ready and'+
+  console.log('DME | This code runs once core initialization is ready and'+
     ' game data is available.');
 });
