@@ -2,5 +2,6 @@
   "DME.Ship": "Ship",
   "DME.ShipEngineClass": "Engine Class",
   "DME.ShipManeuver": "Maneuver",
-  "DME.ShieldPoints": "Shield Points"
+  "DME.ShieldPoints": "Shield Points",
+  "DME.ShipSpeed": "Impulse Speed"
 }
